@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyApplication"
+        tools:targetApi="31">
+        <activity
+            android:name=".Test2Activity"
+            android:exported="false" />
+        <activity
+            android:name=".fragment.AddUser"
+            android:exported="false" />
+        <activity
+            android:name=".fragment.DetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".fragment.AddPhysicalActivityActivity"
+            android:exported="false" />
+        <activity
+            android:name=".fragment.UpdatePhysicalActivityActivity"
+            android:exported="false" />
+        <activity
+            android:name=".fragment.UpdateUserActivity"
+            android:exported="false" />
+        <activity
+            android:name=".fragment.PersonFragment"
+            android:exported="false" />
+        <activity
+            android:name=".fragment.UpdateActivity"
+            android:exported="false" />
+        <activity
+            android:name=".fragment.AddActivity"
+            android:exported="false" />
+        <activity
+            android:name=".fragment.MyMeals"
+            android:exported="false" />
+        <activity
+            android:name=".DangKyTK"
+            android:exported="false" />
+        <activity
+            android:name=".TestActivity"
+            android:exported="false" />
+        <activity
+            android:name=".login_app"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

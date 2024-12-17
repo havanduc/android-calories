@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "863746663068",
+    "project_id": "btladr-dff30",
+    "storage_bucket": "btladr-dff30.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:863746663068:android:88b5b98ac5eff5cfbac359",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCceCt5b1tGLIebsIHVWbWdwnpDQgXc3Q4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- EditText để nhập ID cần xóa -->
+    <EditText
+        android:id="@+id/edit_text_bmi_id"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginBottom="16dp"
+        android:hint="Enter BMI ID to delete"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/delete_button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Delete"
+        android:textSize="18sp"
+        android:textColor="#FFFFFF"
+        android:background="#FF6200EE"
+        android:padding="12dp"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/back_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:textSize="18sp"
+        android:textColor="#FFFFFF"
+        android:background="#FF6200EE"
+        android:padding="12dp"/>
+</LinearLayout>

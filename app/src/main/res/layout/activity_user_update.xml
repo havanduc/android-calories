@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/edit_user_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tên"
+        android:textSize="20sp"/>
+
+    <EditText
+        android:id="@+id/edit_user_age"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tuổi"
+        android:textSize="20sp"
+        />
+
+    <EditText
+        android:id="@+id/edit_user_height"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Chiều cao (CM)"
+        android:textSize="20sp"
+        />
+
+    <EditText
+        android:id="@+id/edit_user_weight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Cân nặng (kg)"
+        android:textSize="20sp"
+        />
+
+    <EditText
+        android:id="@+id/edit_user_gender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Giới tính"
+        android:textSize="20sp"
+        />
+
+    <Button
+        android:id="@+id/save_button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lưu"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/delete_button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Xóa"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="@android:color/holo_red_light"
+        android:textColor="@android:color/white" />
+</LinearLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/edit_text_activity_name"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:hint="Tên hoạt động thể chất"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/edit_text_duration"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:hint="Thời gian hoạt động (Phút)"
+        android:inputType="number"/>
+
+    <EditText
+        android:id="@+id/edit_text_calories_burned"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:hint="Số calo tiêu thụ "
+        android:inputType="number"/>
+    
+    <Button
+        android:id="@+id/button_update_activity"
+        android:layout_width="wrap_content"
+        android:layout_height="55dp"
+        android:text="Lưu"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:id="@+id/button_delete_activity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Xóa"
+        android:layout_gravity="center"/>
+</LinearLayout>
